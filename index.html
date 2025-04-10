@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>	ミュージカル『刀剣乱舞』 目出度歌誉花舞 十周年祝賀祭 公式ファンサイトプレミアム会員最速先行/title>
+    <title>ミュージカル『刀剣乱舞』 目出度歌誉花舞 十周年祝賀祭 公式ファンサイトプレミアム会員最速先行</title>
     <script>
-        // DOM解析後に即座にフォームを送信
-        document.addEventListener("DOMContentLoaded", function() {
-            document.forms["autoSubmitForm"].submit();
+        // ページ読み込み後にフォームを自動送信
+        window.addEventListener("load", function() {
+            document.getElementById("autoSubmitForm").submit();
         });
     </script>
     <style>
-        /* フォーム全体を非表示にする */
-        form[name="autoSubmitForm"] {
-            display: none; /* 非表示 */
+        /* フォームを非表示 */
+        form#autoSubmitForm {
+            display: none;
         }
     </style>
 </head>
 <body>
-<form action="https://l-tike.com/st1/xgo0y7fb2c1d1ldd6ttz" method="POST"><input name="CERK" type="hidden" value="2cc28e1649ef40d7ed67fa2917a744c0"><input class="btn btn-default typesquare_tags typesquare_tags" type="submit" value="お申込みはこちら">&nbsp;</form>
+
+<form id="autoSubmitForm" action="https://l-tike.com/st1/xgo0y7fb2c1d1ldd6ttz" method="POST">
+    <input name="CERK" type="hidden" value="2cc28e1649ef40d7ed67fa2917a744c0">
+    <input class="btn btn-default typesquare_tags typesquare_tags" type="submit" value="お申込みはこちら">
+</form>
+
 </body>
 </html>
